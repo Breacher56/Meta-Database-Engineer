@@ -1,0 +1,140 @@
+# Module quiz: Basic Programming with Python
+
+1. Which of the following is not a sequence data-type in Python?
+   - List
+   - String
+   - Dictionary
+   - Tuples
+   ```
+   Answer: Dictionary
+   Explanation: Dictionaries have key-value object structure and are not sequences.
+   ```
+
+2. For a given list called `new_list`, which of the following options will work:
+    ```python
+    new_list = [1,2,3,4]
+    ```
+   Select all that apply.
+   -    ```python
+        new_list[4] = 10
+        ```
+   -    ```python
+        new_list.extend(new_list)
+        ```
+   -    ```python
+        new_list.insert(0, 0)
+        ```
+   -    ```python
+        new_list.append(5)
+        ```
+   ```
+   Answer: new_list.extend(new_list)
+           new_list.insert(0, 0)
+           new_list.append(5)
+   Explanation: new_list.extend(new_list) will extend the list to give [1,2,3,4,1,2,3,4]
+                new_list.insert(0, 0) will insert 0 at the 0th index giving: [0,1,2,3,4]
+                new_list.append(5) will append the value 5 to the list giving: [1,2,3,4,5]
+   ```
+
+3. Which of the following is not a type of variable scope in Python?
+   - Local
+   - Global
+   - Enclosing
+   - Package
+   ```
+   Answer: Package
+   Explanation: Packages do not define a scope, they are external installations that we bring to extend code functionality.
+   ```
+
+4. Which of the following is a built-in data structure in Python?
+   - Set
+   - Queue
+   - LinkedList
+   - Tree
+   ```
+   Answer: Set
+   Explanation: Set is a built-in data structure such as list, tuple, etc.
+   ```
+
+5. For a given file called `names.txt`, which of the following is NOT a valid syntax for opening a file:
+   -    ```python
+        with open('names.txt', 'r') as file:
+            print(type(file))
+        ```
+
+   -    ```python
+        with open('names.txt', 'w') as file:
+            print(type(file))
+        ```
+
+   -    ```python
+        with open('names.txt', 'rb') as file:
+            print(type(file))
+        ```
+
+   -    ```python
+        with open('names.txt', 'rw') as file:
+            print(type(file))
+        ```
+   ```
+   Answer: 
+    with open('names.txt', 'rw') as file:
+        print(type(file))
+   Explanation: It should either be ‘r’ mode for reading or ‘w’ mode for writing. 
+   ```
+
+6. Which among the following is not a valid Exception in Python?
+   - ZeroDivisionException
+   - FileNotFoundError
+   - IndexError
+   - LoopError
+   ```
+   Answer: LoopError
+   Explanation: There is no such Exception defined in Python.
+   ```
+
+7. For a file called `name.txt` containing the lines below:
+   ```
+   First line
+   Second line
+   And another !
+   ```
+   What will be the output of the following code:
+   ```python
+    with open('names.txt', 'r') as file:
+        lines = file.readlines()
+        print(lines)
+   ```
+   -    ```
+        'First line'
+        ```
+
+   -    ```
+        ['First line\n',
+         'Second line\n',
+         'And another !']
+        ```
+
+   -    ```
+        ['First line']
+        ```
+
+   -    ```
+        'First line'
+        'Second line'
+        'And another !'
+        ```
+   ```
+   Answer: ['First line\n',
+            'Second line\n',
+            'And another !']
+   Explanation: readlines() returns an ordered list with lines in the text file as items in the list.
+   ```
+
+8. State TRUE or FALSE: `*args` passed to the functions can accept the key-value pair. 
+   - True
+   - False
+   ```
+   Answer: False
+   Explanation: You use **kwargs for passing dictionaries or videos containing key-value pairs.
+   ```
