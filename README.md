@@ -13,13 +13,13 @@
   * Week 2: Command Line
   * Week 3: Working with Git
   * Week 4: Graded Assessment
-- Course 3: [Database Structures and Management with MySQL]()
+- Course 3: [Database Structures and Management with MySQL](https://www.coursera.org/learn/database-structures-and-management-with-mysql?specialization=meta-database-engineer)(Release date: Sep 19th, 2022)
   * Week 1: 
   * Week 2: 
   * Week 3: 
   * Week 4: 
   * Week 5: 
-- Course 5: [Advanced MySQL Topics]()
+- Course 5: [Advanced MySQL Topics](https://www.coursera.org/learn/advanced-mysql-topics?specialization=meta-database-engineer)(Release date: Sep 19th, 2022)
   * Week 1: 
   * Week 2: 
   * Week 3: 
@@ -31,25 +31,25 @@
   * Week 3: Programming Paradigms
   * Week 4: Modules, packages, libraries and tools
   * Week 5: End-of-Course Graded Assessment
-- Course 6: [Database Clients]()
+- Course 6: [Database Clients](https://www.coursera.org/learn/database-clients?specialization=meta-database-engineer)(Release date: Dec 12nd, 2022)
   * Week 1: 
   * Week 2: 
   * Week 3: 
   * Week 4: 
   * Week 5: 
-- Course 7: [Advanced Data Modeling]()
+- Course 7: [Advanced Data Modeling](https://www.coursera.org/learn/advanced-data-modeling?specialization=meta-database-engineer)(Release date: Jan 2nd, 2023)
   * Week 1: 
   * Week 2: 
   * Week 3: 
   * Week 4: 
   * Week 5: 
-- Course 8: [Database Engineer Capstone]()
+- Course 8: [Database Engineer Capstone](https://www.coursera.org/learn/database-engineer-capstone?specialization=meta-database-engineer)(Release date: Jan 2nd, 2023)
   * Week 1: 
   * Week 2: 
   * Week 3: 
   * Week 4: 
   * Week 5: 
-- Course 9: [Coding Interview Preparation](https://www.coursera.org/learn/coding-interview-preparation?specialization=meta-back-end-developer)
+- Course 9: [Coding Interview Preparation](https://www.coursera.org/learn/coding-interview-preparation?specialization=meta-back-end-developer)(Release date: Dec 12nd, 2022)
   * Week 1: 
   * Week 2: 
   * Week 3: 
